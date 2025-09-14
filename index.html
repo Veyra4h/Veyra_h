@@ -109,11 +109,6 @@
     .socials{display:flex;gap:14px;justify-content:center;margin-top:12px}
 
   
-  .watermark{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);pointer-events:auto;opacity:0.14;font-weight:800;font-family:'Montserrat';font-size:20px;color:#fff;z-index:9999;mix-blend-mode:overlay;display:flex;align-items:center;justify-content:center}
-  .watermark img{height:36px;max-width:220px;display:block;opacity:0.9;filter:grayscale(0.06) contrast(0.95);}
-  .watermark:hover img{opacity:1;transform:scale(1.02)}
-
-  
   #hero .hero-title, #hero .hero-sub, #hero .cta-row, #hero .profile-card{opacity:0;transform:translateY(10px) scale(0.995);transition:opacity 680ms cubic-bezier(.2,.9,.3,1),transform 680ms cubic-bezier(.2,.9,.3,1)}
   #hero.visible .hero-title{opacity:1;transform:none;transition-delay:120ms}
   #hero.visible .hero-sub{opacity:1;transform:none;transition-delay:240ms}
